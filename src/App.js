@@ -1,12 +1,14 @@
 import React from 'react';
 import Header from './components/Header';
+import FeedbackItem from './components/FeedbackItem';
 
 function App() {
 	return (
 		<React.Fragment>
 			<Header />
-			<h1>Hello!</h1>
-			<p>This is my feedback app</p>
+			<div className="container">
+				<FeedbackItem />
+			</div>
 		</React.Fragment>
 	);
 }
